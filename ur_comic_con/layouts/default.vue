@@ -5,15 +5,6 @@
   </div>
 </template>
 
-<script>
-import NavBar from "../components/NavBar";
-export default {
-  components: {
-    NavBar
-  }
-};
-</script>
-
 <style>
 * {
   box-sizing: border-box;
@@ -27,7 +18,7 @@ body {
   background: #1573ff;
 }
 a {
-  color: rgb(252, 95, 95);
+  color: #ff1111;;
   text-decoration: none;
 }
 ul {
