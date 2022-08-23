@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
-    <NavBar/>
-    <nuxt/>
+  <div class="header">
+      <h1 class="logo"> UR COMIC CON </h1>
+    <div class="container">
+        <Nuxt/>
+    </div>
   </div>
 </template>
 
@@ -12,23 +14,36 @@
   padding: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background: #1573ff;
+  background: #1333bd;
 }
 a {
-  color: #ff1111;;
+  color: #e83731;
   text-decoration: none;
-}
-ul {
-  list-style: none;
 }
 .container {
   max-width: 1200px;
   overflow: hidden;
   padding: 1rem 2rem;
-  color: #fffc32;
+  margin-top: 5rem;
+  color: #fee54d;
   text-align: center;
+  font-size: 1rem;
+  font-family: Helvetica;
+  font-weight: 100;
+}
+.header {
+  color: #1333bd;
+  background: #fee54d;
+  text-align: center;
+  max-height: 10rem;
+  padding: 2rem;
+}
+.logo{
+  font-size: 5rem;
+  font-family: 'Badaboom';
+  font-weight: 600;
+  text-shadow: 4px 4px #e83731;
 }
 </style>

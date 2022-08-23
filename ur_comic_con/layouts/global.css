@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Badaboom';
+    src: url(~assets/BADABB__.TTF) format("truetype");
+}
+
+html {
+    font-family: 'Badaboom';
+}
